@@ -22,13 +22,15 @@ import Accordion from '@material-ui/core/Accordion';
 import AccordionSummary from '@material-ui/core/AccordionSummary';
 import AccordionDetails from '@material-ui/core/AccordionDetails';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-
+import TwitterIcon from '@material-ui/icons/Twitter';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 const drawerWidth = 240;
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    display: 'flex',
+    display:"flex"
   },
   appBar: {
     transition: theme.transitions.create(['margin', 'width'], {
@@ -136,7 +138,7 @@ export default function PersistentDrawerLeft() {
         </div>
         <Divider />
         <List>
-         {['About','Projects'].map((text, index) => (
+         {['About'].map((text, index) => (
             <ListItem button key={text}>
               <ListItemText primary={text} />
             </ListItem>
@@ -147,14 +149,32 @@ export default function PersistentDrawerLeft() {
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
+              <Typography className={classes.heading}>Projects</Typography>
+            </AccordionSummary>
+            <AccordionDetails style={{flexDirection:"column"}}>
+            <ListItem button key={"project 1"}>
+              <ListItemText primary={'project 1'} />
+            </ListItem>
+            <ListItem button key={"project 2"}>
+              <ListItemText primary={'project 2'} />
+            </ListItem>
+            </AccordionDetails>
+          </Accordion>
+
+          <Accordion>
+            <AccordionSummary
+              expandIcon={<ExpandMoreIcon />}
+              aria-controls="panel1a-content"
+              id="panel1a-header"
+            >
               <Typography className={classes.heading}>Blog Posts</Typography>
             </AccordionSummary>
-            <AccordionDetails style={{display:"flex", }}>
+            <AccordionDetails style={{flexDirection:"column"}} >
             <ListItem button key={"blog 1"}>
               <ListItemText primary={'blog 1'} />
             </ListItem>
-            <ListItem button key={"blog 1"}>
-              <ListItemText primary={'blog 1'} />
+            <ListItem button key={"blog 2"}>
+              <ListItemText primary={'blog 2'} />
             </ListItem>
             </AccordionDetails>
           </Accordion>
@@ -163,6 +183,7 @@ export default function PersistentDrawerLeft() {
           {['Github', 'Linkedin', 'Twitter'].map((text, index) => (
             <ListItem button key={text}>
               <ListItemText primary={text} />
+              {index === 0? <GitHubIcon/>: index === 1? <LinkedInIcon/> :<TwitterIcon/>}
             </ListItem>
           ))}
         </List>
