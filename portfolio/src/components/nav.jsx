@@ -33,6 +33,8 @@ const useStyles = makeStyles((theme) => ({
     display:"flex"
   },
   appBar: {
+    background:"transparent",
+    color:"black",
     transition: theme.transitions.create(['margin', 'width'], {
       easing: theme.transitions.easing.sharp,
       duration: theme.transitions.duration.leavingScreen,
@@ -115,7 +117,7 @@ export default function PersistentDrawerLeft() {
             edge="start"
             className={clsx(classes.menuButton, open && classes.hide)}
           >
-            <MenuIcon />
+            <MenuIcon style={{color:'black'}} />
           </IconButton>
           <Typography variant="h6" noWrap>
             Landon Tipantiza
@@ -182,8 +184,8 @@ export default function PersistentDrawerLeft() {
         <List>
           {['Github', 'Linkedin', 'Twitter'].map((text, index) => (
             <ListItem button key={text}>
-              <ListItemText primary={text} />
               {index === 0? <GitHubIcon/>: index === 1? <LinkedInIcon/> :<TwitterIcon/>}
+              <ListItemText primary={text} />
             </ListItem>
           ))}
         </List>
