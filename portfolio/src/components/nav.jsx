@@ -25,6 +25,7 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import "../general.css"
 
 const drawerWidth = 240;
 
@@ -33,6 +34,7 @@ const useStyles = makeStyles((theme) => ({
     display:"flex"
   },
   appBar: {
+    boxShadow: "none",
     background:"transparent",
     color:"black",
     transition: theme.transitions.create(['margin', 'width'], {
@@ -154,12 +156,14 @@ export default function PersistentDrawerLeft() {
               <Typography className={classes.heading}>Projects</Typography>
             </AccordionSummary>
             <AccordionDetails style={{flexDirection:"column"}}>
-            <ListItem button key={"project 1"}>
-              <ListItemText primary={'project 1'} />
+            <ListItem button key={"Atlas Jams"}>
+              <ListItemText primary={'Atlas Jams'} />
             </ListItem>
-            <ListItem button key={"project 2"}>
-              <ListItemText primary={'project 2'} />
+            <a href="https://github.com/tipantiza" target='_blank'>
+            <ListItem button onClick={()=>"location.href = 'https://github.com/BDeWitt-Cohen/wiki-map-midterm'"} key={"Slightly Bad Directions"}>
+              <ListItemText primary={'Slightly Bad Directions'} />
             </ListItem>
+            </a>
             </AccordionDetails>
           </Accordion>
 
@@ -182,12 +186,24 @@ export default function PersistentDrawerLeft() {
           </Accordion>
         </List>
         <List>
-          {['Github', 'Linkedin', 'Twitter'].map((text, index) => (
-            <ListItem button key={text}>
-              {index === 0? <GitHubIcon/>: index === 1? <LinkedInIcon/> :<TwitterIcon/>}
-              <ListItemText primary={text} />
+          <a href="https://github.com/tipantiza" target='_blank'>
+            <ListItem button key={"Github"}>
+              <GitHubIcon/>
+              <ListItemText primary={"Github"} />
             </ListItem>
-          ))}
+          </a>
+          <a href="https://www.linkedin.com/in/landon-tipantiza-5304001b3/" target='_blank'>
+            <ListItem button key={"Linkedin"}>
+              <LinkedInIcon/>
+              <ListItemText primary={"Linkedin"} />
+            </ListItem>
+          </a>
+          <a href="https://twitter.com/LandonTipantiza" target='_blank'>
+            <ListItem button key={"Twitter"}>
+              <TwitterIcon/>
+              <ListItemText primary={"Twitter"} />
+            </ListItem>
+          </a>
         </List>
       </Drawer>
       <main>
