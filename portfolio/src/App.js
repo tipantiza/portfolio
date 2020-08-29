@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-import PersistentDrawerLeft from './components/nav';
-import HomePage from './components/homePage';
-import About from './components/about';
+import PersistentDrawerLeft from './components/Nav';
+import HomePage from './components/HomePage';
+import About from './components/About';
 
 function App() {
   return (
