@@ -111,19 +111,19 @@ export default function PersistentDrawerLeft() {
           [classes.appBarShift]: open,
         })}
       >
-        <Toolbar>
-          <IconButton
-            color="inherit"
-            aria-label="open drawer"
-            onClick={handleDrawerOpen}
-            edge="start"
-            className={clsx(classes.menuButton, open && classes.hide)}
-          >
-            <MenuIcon style={{color:'black'}} />
-          </IconButton>
-          <Typography variant="h6" noWrap>
-            Landon Tipantiza
-          </Typography>
+        <Toolbar style={{background:"#222323", width:"300px", marginLeft:"10px", marginTop:"10px", borderRadius:"3px"}} >
+            <IconButton
+              color="inherit"
+              aria-label="open drawer"
+              onClick={handleDrawerOpen}
+              edge="start"
+              className={clsx(classes.menuButton, open && classes.hide)}
+            >
+              <MenuIcon style={{color:'white'}} />
+            </IconButton>
+            <Typography class="title-font" variant="h6" noWrap  style={{color:"white", margin:"0"}}>
+              Landon Tipantiza
+            </Typography>
         </Toolbar>
       </AppBar>
       <Drawer
@@ -159,7 +159,7 @@ export default function PersistentDrawerLeft() {
             <ListItem button key={"Atlas Jams"}>
               <ListItemText primary={'Atlas Jams'} />
             </ListItem>
-            <a href="https://github.com/tipantiza" target='_blank'>
+            <a href="https://github.com/tipantiza" target='_blank' rel="noopener noreferrer" >
             <ListItem button onClick={()=>"location.href = 'https://github.com/BDeWitt-Cohen/wiki-map-midterm'"} key={"Slightly Bad Directions"}>
               <ListItemText primary={'Slightly Bad Directions'} />
             </ListItem>
@@ -186,19 +186,19 @@ export default function PersistentDrawerLeft() {
           </Accordion>
         </List>
         <List>
-          <a href="https://github.com/tipantiza" target='_blank'>
+          <a href="https://github.com/tipantiza" target='_blank' rel="noopener noreferrer">
             <ListItem button key={"Github"}>
               <GitHubIcon/>
               <ListItemText primary={"Github"} />
             </ListItem>
           </a>
-          <a href="https://www.linkedin.com/in/landon-tipantiza-5304001b3/" target='_blank'>
+          <a href="https://www.linkedin.com/in/landon-tipantiza-5304001b3/" target='_blank' rel="noopener noreferrer">
             <ListItem button key={"Linkedin"}>
               <LinkedInIcon/>
               <ListItemText primary={"Linkedin"} />
             </ListItem>
           </a>
-          <a href="https://twitter.com/LandonTipantiza" target='_blank'>
+          <a href="https://twitter.com/LandonTipantiza" target='_blank' rel="noopener noreferrer">
             <ListItem button key={"Twitter"}>
               <TwitterIcon/>
               <ListItemText primary={"Twitter"} />
