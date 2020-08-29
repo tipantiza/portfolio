@@ -1,13 +1,16 @@
 import React from 'react';
 import './App.css';
 import PersistentDrawerLeft from './components/nav';
-import homePage from './components/homePage';
+import HomePage from './components/homePage';
+import About from './components/about';
 
 function App() {
   return (
    <>
     <PersistentDrawerLeft/>
-    <img style={{height:'100vh', width:"100vw"}} src={require("./docs/toronto_cn.jpg")} alt="landscape"/>
+    <HomePage/>
+    <About/>
+    
    </>
   );
 }
