@@ -121,7 +121,7 @@ export default function PersistentDrawerLeft() {
             >
               <MenuIcon style={{color:'white'}} />
             </IconButton>
-            <Typography class="title-font" variant="h6" noWrap  style={{color:"white", margin:"0"}}>
+            <Typography class="title-font" variant="h2" noWrap  style={{color:"white", margin:"0"}}>
               Landon Tipantiza
             </Typography>
         </Toolbar>

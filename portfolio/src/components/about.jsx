@@ -1,4 +1,5 @@
 import React from "react";
+import "../general.css"
 
 export default function About(){
 
@@ -10,7 +11,7 @@ export default function About(){
         </h1>
         <img src="" alt=""/>
         <p>
-          landon slkas sdkfjs d sdkfjsdf,sdfk slkfjsd skd aksdf laskdfndkf, alskd.s dfskjjdf adk sdkf skf landon slkas sdkfjs d sdkfjsdf,sdfk slkfjsd skd aksdf laskdfndkf, alskd.s dfskjjdf adk sdkf skflandon slkas sdkfjs d sdkfjsdf,sdfk slkfjsd skd aksdf laskdfndkf, alskd.s dfskjjdf adk sdkf skflandon slkas sdkfjs d sdkfjsdf,sdfk slkfjsd skd aksdf laskdfndkf, alskd.s dfskjjdf adk sdkf skflandon slkas sdkfjs d sdkfjsdf,sdfk slkfjsd skd aksdf laskdfndkf, alskd.s dfskjjdf adk sdkf skflandon slkas sdkfjs d sdkfjsdf,sdfk slkfjsd skd aksdf laskdfndkf, alskd.s dfskjjdf adk sdkf skflandon slkas sdkfjs d sdkfjsdf,sdfk slkfjsd skd aksdf laskdfndkf, alskd.s dfskjjdf adk sdkf skflandon slkas sdkfjs d sdkfjsdf,sdfk slkfjsd skd aksdf laskdfndkf, alskd.s dfskjjdf adk sdkf skflandon slkas sdkfjs d sdkfjsdf,sdfk slkfjsd skd aksdf laskdfndkf, alskd.s dfskjjdf adk sdkf skflandon slkas sdkfjs d sdkfjsdf,sdfk slkfjsd skd aksdf laskdfndkf, alskd.s dfskjjdf adk sdkf skflandon slkas sdkfjs d sdkfjsdf,sdfk slkfjsd skd aksdf laskdfndkf, alskd.s dfskjjdf adk sdkf skflandon slkas sdkfjs d sdkfjsdf,sdfk slkfjsd skd aksdf laskdfndkf, alskd.s dfskjjdf adk sdkf skflandon slkas sdkfjs d sdkfjsdf,sdfk slkfjsd skd aksdf laskdfndkf, alskd.s dfskjjdf adk sdkf skflandon slkas sdkfjs d sdkfjsdf,sdfk slkfjsd skd aksdf laskdfndkf, alskd.s dfskjjdf adk sdkf skflandon slkas sdkfjs d sdkfjsdf,sdfk slkfjsd skd aksdf laskdfndkf, alskd.s dfskjjdf adk sdkf skflandon slkas sdkfjs d sdkfjsdf,sdfk slkfjsd skd aksdf laskdfndkf, alskd.s dfskjjdf adk sdkf skflandon slkas sdkfjs d sdkfjsdf,sdfk slkfjsd skd aksdf laskdfndkf, alskd.s dfskjjdf adk sdkf skflandon slkas sdkfjs d sdkfjsdf,sdfk slkfjsd skd aksdf laskdfndkf, alskd.s dfskjjdf adk sdkf skflandon slkas sdkfjs d sdkfjsdf,sdfk slkfjsd skd aksdf laskdfndkf, alskd.s dfskjjdf adk sdkf skf landon slkas sdkfjs d sdkfjsdf,sdfk slkfjsd skd aksdf laskdfndkf, alskd.s dfskjjdf adk sdkf skflandon slkas sdkfjs d sdkfjsdf,sdfk slkfjsd skd aksdf laskdfndkf, alskd.s dfskjjdf adk sdkf skflandon slkas sdkfjs d sdkfjsdf,sdfk slkfjsd skd aksdf laskdfndkf, alskd.s dfskjjdf adk sdkf skflandon slkas sdkfjs d sdkfjsdf,sdfk slkfjsd skd aksdf laskdfndkf, alskd.s dfskjjdf adk sdkf skflandon slkas sdkfjs d sdkfjsdf,sdfk slkfjsd skd aksdf laskdfndkf, alskd.s dfskjjdf adk sdkf skflandon slkas sdkfjs d sdkfjsdf,sdfk slkfjsd skd aksdf laskdfndkf, alskd.s dfskjjdf adk sdkf skflandon slkas sdkfjs d sdkfjsdf,sdfk slkfjsd skd aksdf laskdfndkf, alskd.s dfskjjdf adk sdkf skf
+
         </p>
       </div>
       
