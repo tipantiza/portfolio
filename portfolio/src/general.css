@@ -6,3 +6,11 @@ a {
 .title-font {
   font-family: 'Times New Roman', Times, serif;
 }
+html {
+  scroll-behavior: smooth;
+  
+}
+
+h2 {
+  color:"white";
+}

@@ -142,11 +142,10 @@ export default function PersistentDrawerLeft() {
         </div>
         <Divider />
         <List>
-         {['About'].map((text, index) => (
-            <ListItem button key={text}>
-              <ListItemText primary={text} />
+            <ListItem button key={"About"} onClick={()=>{document.getElementById("about").scrollIntoView()}}>
+              <ListItemText primary={"About"} />
             </ListItem>
-          ))}
+
           <Accordion>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
@@ -176,7 +175,7 @@ export default function PersistentDrawerLeft() {
               <Typography className={classes.heading}>Blog Posts</Typography>
             </AccordionSummary>
             <AccordionDetails style={{flexDirection:"column"}} >
-            <ListItem button key={"blog 1"}>
+            <ListItem button key={"blog 1"} onClick={()=>{console.log('hi')}}>
               <ListItemText primary={'blog 1'} />
             </ListItem>
             <ListItem button key={"blog 2"}>
