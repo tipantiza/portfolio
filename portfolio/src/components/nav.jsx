@@ -146,11 +146,11 @@ export default function PersistentDrawerLeft() {
               <ListItemText primary={"About"} />
             </ListItem>
 
-            <ListItem button key={"Projects"} onClick={()=>{document.getElementById("about").scrollIntoView()}}>
+            <ListItem button key={"Projects"} onClick={()=>{document.getElementById("projects").scrollIntoView()}}>
               <ListItemText primary={"Projects"} />
             </ListItem>
 
-            <ListItem button key={"Blogs"} onClick={()=>{document.getElementById("about").scrollIntoView()}}>
+            <ListItem button key={"Blogs"} onClick={()=>{window.alert("feature comming soon!")}}>
               <ListItemText primary={"Blogs"} />
             </ListItem>
 

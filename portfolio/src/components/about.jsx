@@ -9,7 +9,7 @@ export default function About(props){
 
   return (
     <>
-      <div style={{ height:"100vh", width:'100vw', display:"flex", flexDirection:"column",  alignItems:'center'}}>
+      <div style={{ height:"110vh", width:'100vw', borderBottomStyle:"solid", borderWidth:"1px", display:"flex", flexDirection:"column",  alignItems:'center'}}>
         <h1 id="about" style={{alignSelf:"center", color:"white", margin:"30px", paddingTop:"60px"}}>
           About
         </h1>
@@ -25,7 +25,7 @@ export default function About(props){
           </div>
           {/* </div> */}
             <p style={{ color:"white"}}>
-              this is the description of who i am and i want it it to be around 4-5 sentences. this is the description of who i am and i want it it to be around 4-5 sentences. this is the description of who i am and i want it it to be around 4-5 sentences. this is the description of who i am and i want it it to be around 4-5 sentences. this is the description of who i am and i want it it to be around 4-5 sentences.
+            Full stack web developer with a passion for problem solving and finding solutions. While installing flooring, I realized Web Development was a perfect opportunity to continue improving my skills in efficiency and creativity. I look forward to contributing outside-of-the-box solutions and growing in the industry.
             </p>
 
         </div>
