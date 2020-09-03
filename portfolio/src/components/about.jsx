@@ -10,7 +10,7 @@ export default function About(props){
   return (
     <>
       <div style={{ height:"100vh", width:'100vw', display:"flex", flexDirection:"column",  alignItems:'center'}}>
-        <h1 id="about" style={{alignSelf:"center", color:"white", margin:"30px"}}>
+        <h1 id="about" style={{alignSelf:"center", color:"white", margin:"30px", paddingTop:"60px"}}>
           About
         </h1>
 
@@ -31,9 +31,9 @@ export default function About(props){
         </div>
           <div style={{width:"50vw", display:"flex", alignItems:"center", flexDirection:"column"}}>
            <h2 style={{color:"white", textDecoration:"underline"}}>Tech</h2>
-           <div style={{height:"100%", width:"100%",display:"flex", justifyContent:"space-evenly"}}>
+           <div style={{height:"100%", width:"100%",display:"flex", flexWrap:"wrap", justifyContent:"space-evenly"}}>
 
-           <Tech images={['javascriptLogo.png', 'css.png', 'html.png']}/>
+           <Tech images={['javascriptLogo.png', 'css.png', 'html.png', 'git.png', 'node.png', 'react.png', 'sql.png']}/>
            </div>
           </div>
 

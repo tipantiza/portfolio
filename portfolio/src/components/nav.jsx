@@ -146,43 +146,14 @@ export default function PersistentDrawerLeft() {
               <ListItemText primary={"About"} />
             </ListItem>
 
-          <Accordion>
-            <AccordionSummary
-              expandIcon={<ExpandMoreIcon />}
-              aria-controls="panel1a-content"
-              id="panel1a-header"
-            >
-              <Typography className={classes.heading}>Projects</Typography>
-            </AccordionSummary>
-            <AccordionDetails style={{flexDirection:"column"}}>
-            <ListItem button key={"Atlas Jams"}>
-              <ListItemText primary={'Atlas Jams'} />
+            <ListItem button key={"Projects"} onClick={()=>{document.getElementById("about").scrollIntoView()}}>
+              <ListItemText primary={"Projects"} />
             </ListItem>
-            <a href="https://github.com/tipantiza" target='_blank' rel="noopener noreferrer" >
-            <ListItem button onClick={()=>"location.href = 'https://github.com/BDeWitt-Cohen/wiki-map-midterm'"} key={"Slightly Bad Directions"}>
-              <ListItemText primary={'Slightly Bad Directions'} />
-            </ListItem>
-            </a>
-            </AccordionDetails>
-          </Accordion>
 
-          <Accordion>
-            <AccordionSummary
-              expandIcon={<ExpandMoreIcon />}
-              aria-controls="panel1a-content"
-              id="panel1a-header"
-            >
-              <Typography className={classes.heading}>Blog Posts</Typography>
-            </AccordionSummary>
-            <AccordionDetails style={{flexDirection:"column"}} >
-            <ListItem button key={"blog 1"} onClick={()=>{console.log('hi')}}>
-              <ListItemText primary={'blog 1'} />
+            <ListItem button key={"Blogs"} onClick={()=>{document.getElementById("about").scrollIntoView()}}>
+              <ListItemText primary={"Blogs"} />
             </ListItem>
-            <ListItem button key={"blog 2"}>
-              <ListItemText primary={'blog 2'} />
-            </ListItem>
-            </AccordionDetails>
-          </Accordion>
+
         </List>
         <List>
           <a href="https://github.com/tipantiza" target='_blank' rel="noopener noreferrer">
