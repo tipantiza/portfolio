@@ -25,7 +25,7 @@ export default function About(props){
           </div>
           {/* </div> */}
             <p style={{ color:"white"}}>
-            Full stack web developer with a passion for problem solving and finding solutions. While installing flooring, I realized Web Development was a perfect opportunity to continue improving my skills in efficiency and creativity. I look forward to contributing outside-of-the-box solutions and growing in the industry.
+            Full stack web developer with a passion for problem solving and finding solutions. When a friend introduced me to coding I immediately realized Web Development was a perfect opportunity to continue improving my skills in efficiency and creativity. I look forward to contributing outside-of-the-box solutions and growing in the industry.
             </p>
 
         </div>
