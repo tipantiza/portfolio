@@ -1,6 +1,6 @@
 import React from 'react';
 import '../general.css'
-import Project from './Project';
+import Project from './project';
 
 export default function ProjectPage(props){
   return (
