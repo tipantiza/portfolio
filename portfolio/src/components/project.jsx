@@ -7,9 +7,9 @@ export default function Project(props){
     <a href={url} target='_blank' style={{width:'80vw', background:"#2c2e2e", color:'white', display:"flex", borderRadius:"5px", height:"200px", margin:"20px"}}>
       <div style={{width:"28%", height:"inherit", msOverflowX:"hidden", display:"flex", justifyContent:"center", alignItems:"center"}}>
 
-      <img style={{height:'auto', width:"300px"}} src={require(`../docs/${image}`)} alt="landon"></img>
+      <img style={{height:'auto', width:"20vw"}} src={require(`../docs/${image}`)} alt="landon"></img>
       </div>
-      <div style={{padding:"30px",width:"72%", display:'flex', flexDirection:"column", alignItems:'center', justifyContent:"center",}}>
+      <div style={{padding:"30px",width:"72%", display:'flex', flexDirection:"column", alignItems:'center', justifyContent:"center", fontSize:"1vw"}}>
         <h3>{title}</h3>
         <p>{desc}</p>
         <p>Stack: {stack.map(tech => tech + ', ')}</p>
