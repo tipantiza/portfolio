@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.bdc9828a.chunk.css",
+    "main.js": "/portfolio/static/js/main.93fa3118.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.93fa3118.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
+    "static/js/2.1a497eef.chunk.js": "/portfolio/static/js/2.1a497eef.chunk.js",
+    "static/js/2.1a497eef.chunk.js.map": "/portfolio/static/js/2.1a497eef.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.a78d22e8052b9baf366d064f16cb75e5.js": "/portfolio/precache-manifest.a78d22e8052b9baf366d064f16cb75e5.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.bdc9828a.chunk.css.map": "/portfolio/static/css/main.bdc9828a.chunk.css.map",
+    "static/js/2.1a497eef.chunk.js.LICENSE.txt": "/portfolio/static/js/2.1a497eef.chunk.js.LICENSE.txt",
+    "static/media/Screen Shot 2020-09-02 at 1.13.17 PM.png": "/portfolio/static/media/Screen Shot 2020-09-02 at 1.13.17 PM.3df23f5d.png",
+    "static/media/atlasJams.png": "/portfolio/static/media/atlasJams.28e64c84.png",
+    "static/media/css.png": "/portfolio/static/media/css.0fc9d143.png",
+    "static/media/git.png": "/portfolio/static/media/git.fef702d6.png",
+    "static/media/html.png": "/portfolio/static/media/html.00dc6221.png",
+    "static/media/javascriptLogo.png": "/portfolio/static/media/javascriptLogo.50a67f1c.png",
+    "static/media/landon.jpg": "/portfolio/static/media/landon.a5ed0dca.jpg",
+    "static/media/node.png": "/portfolio/static/media/node.521444a2.png",
+    "static/media/react.png": "/portfolio/static/media/react.8ab12c49.png",
+    "static/media/scheduler.png": "/portfolio/static/media/scheduler.f7af5ef5.png",
+    "static/media/slightlyBadDirections.png": "/portfolio/static/media/slightlyBadDirections.c8b7d5b1.png",
+    "static/media/sql.png": "/portfolio/static/media/sql.680e5993.png",
+    "static/media/toronto_cn.jpg": "/portfolio/static/media/toronto_cn.b2439111.jpg",
+    "static/media/tweeter.png": "/portfolio/static/media/tweeter.41534d68.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.209c2d7e.js",
+    "static/js/2.1a497eef.chunk.js",
+    "static/css/main.bdc9828a.chunk.css",
+    "static/js/main.93fa3118.chunk.js"
+  ]
+}
